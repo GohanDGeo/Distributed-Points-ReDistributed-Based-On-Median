@@ -695,9 +695,9 @@ int main(int argc, char** argv) {
             cout << "\033[1;32mCheck passed!\033[0m\n\n";
         }
     }
+    
+    // Finalize MPI
+    MPI_Finalize();
 
-	// Finalize MPI
-	MPI_Finalize();
-
-	return 0;
+    return 0;
 }
