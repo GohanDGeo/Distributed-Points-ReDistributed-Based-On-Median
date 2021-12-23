@@ -24,4 +24,6 @@ where \<p\> the number of processes to run the code for.
 
 If the number of points N is not divisible by the number of processes p, an error is thrown and the program terminates.
 
- Author: Georgios Koutroumpis
+Data bin files can be found here: https://drive.google.com/drive/folders/1R4GS1sqa4-am7aHT1BTNOYa2wP9w6YeI?usp=sharing
+
+Author: Georgios Koutroumpis
