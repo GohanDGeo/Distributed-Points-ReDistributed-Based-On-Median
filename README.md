@@ -23,3 +23,5 @@ To run:
 where <p> the number of processes to run the code for.
 
 If the number of points N is not divisible by the number of processes p, an error is thrown and the program terminates.
+
+ Author: Georgios Koutroumpis
