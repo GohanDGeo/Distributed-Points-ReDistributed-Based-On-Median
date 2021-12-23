@@ -562,9 +562,9 @@ int main(int argc, char** argv) {
     //Open the bin file
 
     //ifstream f("data/CIFAR10.bin", ios::binary);
-    //ifstream f("data/test.bin", ios::binary);
+    ifstream f("data/test.bin", ios::binary);
     //ifstream f("data/fashionMnist.bin", ios::binary);
-    ifstream f("data/mnist.bin", ios::binary);
+    //ifstream f("data/mnist.bin", ios::binary);
 
     //Read the dimension of the points, and the number of points
     vector<int64_t> dims(2);
