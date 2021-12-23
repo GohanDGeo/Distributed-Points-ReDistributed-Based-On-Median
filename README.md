@@ -20,7 +20,7 @@ To run:
  mpiCC distrPointsMedian.cpp  -o exec
  export OMPI_MCA_btl_vader_single_copy_mechanism=none ; mpiexec -np <p> ./exec
 ```
-where <p> the number of processes to run the code for.
+where \<p\> the number of processes to run the code for.
 
 If the number of points N is not divisible by the number of processes p, an error is thrown and the program terminates.
 
